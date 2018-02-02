@@ -6,6 +6,6 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'});  
    // Send the response body as "Hello World"  
    response.end('My test program of CI and CD \n');  
-});  
+}).listen(8081);  
 // Console will print the message  
 console.log('Server running fine'); 
